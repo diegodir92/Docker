@@ -12,43 +12,43 @@ usermod -aG docker usuario
 
 ### 2. Ejecuta un contenedor a partir de la imagen hello-word. Comprueba que nos devuelve la salida adecuada. Comprueba que no se está ejecutando. Lista los contenedores que están parados. Borra el contenedor.
 
-![](../../../../Pictures/Saved%20Pictures/docker/Captura.PNG)
+![](Imagenes/docker/Captura.PNG)
 
-![](../../../../Pictures/Saved%20Pictures/docker/Captura1.PNG)
+![](Imagenes/docker/Captura1.PNG)
 
-![](../../../../Pictures/Saved%20Pictures/docker/Captura2.PNG)
+![](Imagenes/docker/Captura2.PNG)
 
-![](../../../../Pictures/Saved%20Pictures/docker/Captura3.PNG)
+![](Imagenes/docker/Captura3.PNG)
 
 ### 3. Crea un contenedor interactivo desde una imagen debian. Instala un paquete (por ejemplo nano). Sal de la terminal, ¿sigue el contenedor corriendo? ¿Por qué?. Vuelve a iniciar el contenedor y accede de nuevo a él de forma interactiva. ¿Sigue instalado el nano?. Sal del contenedor, y bórralo. Crea un nuevo contenedor interactivo desde la misma imagen. ¿Tiene el nano instalado?
 
-![](../../../../Pictures/Saved%20Pictures/docker/Captura4.PNG)
+![](Imagenes/docker/Captura4.PNG)
 
 Instalamos nano:                
-![](../../../../Pictures/Saved%20Pictures/docker/Captura5.PNG)
+![](Imagenes/docker/Captura5.PNG)
 
 Comprobamos que no se esta ejecutando:  
-![](../../../../Pictures/Saved%20Pictures/docker/Captura6.PNG)
+![](Imagenes/docker/Captura6.PNG)
 
 Al volver a acceder al contenedor vemos que nano sigue instalado:                    
-![](../../../../Pictures/Saved%20Pictures/docker/Captura7.PNG)
+![](Imagenes/docker/Captura7.PNG)
 
 Al eliminar el contenedor y volver a instalar nano nos dice que los paquetes que se instalaran son nuevos:
-![](../../../../Pictures/Saved%20Pictures/docker/Captura8.PNG)
+![](Imagenes/docker/Captura8.PNG)
 
 ### 4. Crea un contenedor demonio con un servidor nginx, usando la imagen oficial de nginx. Al crear el contenedor, ¿has tenido que indicar algún comando para que lo ejecute? Accede al navegador web y comprueba que el servidor esta funcionando. Muestra los logs del contenedor.
 
-![](../../../../Pictures/Saved%20Pictures/docker/Captura9.PNG)
+![](Imagenes/docker/Captura9.PNG)
 
-![](../../../../Pictures/Saved%20Pictures/docker/Captura10.PNG)
+![](Imagenes/docker/Captura10.PNG)
 
 ### 5. Crea un contenedor con la aplicación Nextcloud, mirando la documentación en docker Hub,para personalizar el nombre de la base de datos sqlite que va a utilizar.
 
-![](../../../../Pictures/Saved%20Pictures/docker/Captura11.PNG)
+![](Imagenes/docker/Captura11.PNG)
 
-![](../../../../Pictures/Saved%20Pictures/docker/Captura12.PNG)
+![](Imagenes/docker/Captura12.PNG)
 
-![](../../../../Pictures/Saved%20Pictures/docker/Captura13.PNG)
+![](Imagenes/docker/Captura13.PNG)
 
 Para cambiar el nombre de la base de datos                                                      
 ```shh
